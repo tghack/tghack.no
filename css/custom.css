@@ -24,6 +24,7 @@ a:hover {
 
 .fade-in-content {
     animation: fadeIn 3.0s;
+    background-color: #191919;
 }
 
 .is-tg-black {
