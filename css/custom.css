@@ -1,0 +1,45 @@
+.is-tg-cyan {
+    color: #04ccff;
+}
+
+a {
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #00ff00;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.0;
+        background-color: #000;
+    }
+
+    100% {
+        opacity: 1.0;
+        background-color: #191919
+    }
+}
+
+.fade-in-content {
+    animation: fadeIn 3.0s;
+}
+
+.is-tg-black {
+    color: #131E29;
+}
+
+.is-tg-white {
+    color: #ffffff;
+}
+
+.is-tg-bg {
+    background-color: #191919;
+}
+
+hr.divider {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    border-width: 2px;
+}
