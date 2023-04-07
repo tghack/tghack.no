@@ -6,6 +6,10 @@ a {
     transition: 0.5s;
 }
 
+.banner {
+    font-size: 10vh;
+}
+
 a:hover {
     color: #00ff00;
 }
