@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'LinuxBootFont';
+    src: url('../font/unifont.otf') format('opentype');
+}
+
+body {
+    font-family: 'LinuxBootFont', monospace;
+    background-color: black;
+    background-color: rgb(14, 15, 29);
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    overflow: hidden;
+    margin: auto;
+}
+
+#terminal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    margin: 5px;
+    color: #04ccff;
+}
+
+a:visited {
+    color: #04ccff;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.header {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 20px;
+}
+
+.container {
+    font-size: 20px;
+}
+
+.box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 230px;
+    max-width: 470px;
+    /* border: 2px solid rgb(182, 183, 206); */
+    text-align: center;
+    color: white;
+    padding: 18px;
+    min-height: 190px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo-div {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -170%);
+    width: 100%;
+    max-width: 600px;
+}
+
+img.logo {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.cursor {
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    animation: blink 0.5s infinite alternate;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@media screen and (min-width: 535px) {
+    .box-text p {
+        line-height: 30px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding-bottom: 4px;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    a {
+        background:
+            linear-gradient(to right,
+                #04ccff,
+                #04ccff),
+            linear-gradient(to right,
+                rgba(255, 0, 0, 1),
+                rgba(255, 0, 180, 1),
+                #04ccff);
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 400ms;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-size: 0 1px, 100% 1px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    img.logo {
+        max-width: 510px;
+    }
+
+    .logo-div {
+        transform: translate(-50%, -175%);
+    }
+}
+
+@media screen and (max-width: 535px) {
+    body {
+        font-size: 14px;
+    }
+
+    img.logo {
+        max-width: 350px;
+    }
+
+    .logo-div {
+        transform: translate(-50%, -235%);
+    }
+
+    .box {
+        min-width: 310px;
+        font-size: 23px;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .links a {
+        padding: 5px;
+    }
+
+}
