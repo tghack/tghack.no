@@ -48,3 +48,9 @@ hr.divider {
     margin-bottom: 0em;
     border-width: 2px;
 }
+
+#countdown {
+    font-size: 400%;
+    font-weight: bold;
+    color: white;
+}
