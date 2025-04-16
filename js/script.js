@@ -1,6 +1,6 @@
 
 const targetDate = new Date('2025-04-16T19:00:00').getTime();
-const customMessage = "CTF'en er LIVE nå @ https://ctf.tghack.no";                                                                                                                                           // TG25{7juvst4rter}
+const customMessage = `CTF'en er LIVE nå @ <a color="white" href="https://ctf.tghack.no/">ctf.tghack.no</a>`;                                                                                                                                           // TG25{7juvst4rter}
 
 
 const countdown = setInterval(function() {
@@ -15,9 +15,6 @@ const countdown = setInterval(function() {
         `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 
     if (distance < 0) {
-        clearInterval(countdown);
-        document.getElementById("countdown").style.display = "none";
-        document.getElementById("message").innerHTML = customMessage;
-        document.getElementById("message").style.display = "block";
+        document.getElementById("countdown").innerHTML = customMessage;
     }
 }, 1000);
