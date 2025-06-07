@@ -1,5 +1,5 @@
 
-const targetDate = new Date('2025-04-16T19:00:00').getTime();
+const targetDate = new Date('2026-04-1T19:00:00').getTime();
 const customMessage = `CTF'en er LIVE nå @ <a color="white" href="https://ctf.tghack.no/">ctf.tghack.no</a>`;                                                                                                                                           // TG25{7juvst4rter}
 
 
