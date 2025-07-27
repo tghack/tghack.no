@@ -11,8 +11,8 @@ const lang = {
     },
     "en": {
         "live": "The CTFen is live NOW",
-        "day": "dag",
-        "day_article": "er",
+        "day": "day",
+        "day_article": "s",
     },
 }
 
