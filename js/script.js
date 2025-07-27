@@ -35,7 +35,7 @@ const updateTimer = () => {
 
         if (days > 0) {
             const article = days == 1 ? "" : lang[locale].day_article;
-            text = `${days} ${lang[locale].day}{article}, ${text}`;
+            text = `${days} ${lang[locale].day}${article}, ${text}`;
         }
 
         countdownEl.innerText = text;
