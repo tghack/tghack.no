@@ -4,7 +4,7 @@ countdownEl.className += " enabled";
 const targetDate = new Date('2026-04-01T19:00:00').getTime();
 const customMessage = `CTF'en er LIVE nå @ <a color="white" href="https://ctf.tghack.no/">ctf.tghack.no</a>`;
 
-const countdownTimer = setInterval(function() {
+const updateTimer = () => {
     const now = new Date().getTime();
     const distance = targetDate - now;
 
@@ -25,4 +25,7 @@ const countdownTimer = setInterval(function() {
 
         countdownEl.innerText = text;
     }
-}, 1000);
+}
+
+updateTimer();
+const countdownTimer = setInterval(updateTimer, 1000);
