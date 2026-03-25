@@ -1,3 +1,2 @@
-# landing
+# tghack.no
 
-Landing page for TG:HACK.
