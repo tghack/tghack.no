@@ -101,7 +101,7 @@
 				Hjem
 			</a>
 
-			<a href="/info" on:click={close} class="block rounded-md px-3 py-2 text-sm text-white hover:bg-white/10 transition-colors">
+			<a href="/about" on:click={close} class="block rounded-md px-3 py-2 text-sm text-white hover:bg-white/10 transition-colors">
 				Om Oss
 			</a>
 
