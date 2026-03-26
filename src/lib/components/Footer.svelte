@@ -1,6 +1,5 @@
 <footer
-  role="contentinfo"
-  class="backdrop-blur-md fixed bottom-0 w-full bg-black/90 flex items-center justify-center py-3">
+  class="fixed bottom-0 w-full bg-black/90 flex items-center justify-center py-3">
   <ul class="flex items-center gap-6 sm:gap-10">
 
     <li>

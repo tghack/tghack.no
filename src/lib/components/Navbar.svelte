@@ -22,7 +22,7 @@
 	}
 </script>
 
-<nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-black/90 ">
+<nav class="fixed top-0 w-full z-50 bg-black/90 ">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-between">
 
