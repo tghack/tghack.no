@@ -12,7 +12,8 @@
 
         <p class="mb-5">
             Hver påske arrangerer The Gathering en tre dager lang CTF i Vikingskipet i Hamar. Det kreves en gyldig billett til
-            arrangementet for å kunne vinne premier. I tillegg krever noen oppgaver (f.eks. dirking av låser og maskinvareoppgaver) at deltakerne er fysisk til stede, så du bør prøve å bli med oss i Vikingskipet.
+            arrangementet for å kunne vinne premier. I tillegg krever noen oppgaver (f.eks. dirking av låser og
+            maskinvareoppgaver) at deltakerne er fysisk til stede, så du bør prøve å bli med oss i Vikingskipet! 
         </p>
     </div>
 </div>
