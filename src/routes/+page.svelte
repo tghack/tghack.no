@@ -2,7 +2,7 @@
     import bg2 from '$lib/assets/background/02.png';
 
 	import Countdown from '$lib/components/Countdown.svelte';
-	import logo from "$lib/assets/logo/hvit_horisontal_600px.png";
+	import logo from "$lib/assets/logo/hvit_horisontal.svg";
 
 </script>
 
