@@ -23,7 +23,7 @@
                 <img class="scale-85 md:scale-200" src={logo} fetchpriority="high" alt="tghack logo"/>
             </div>
 			<Countdown />
-			<div class="flex mt-8 sm:text-xl text-white">
+			<div class="mt-8 text-lg sm:text-xl text-white px-8">
 				Norges lengstlevende CTF, som del av Norges største datafestival og LAN-party: <a href="https://www.tg.no/" class="underline hover:text-slate-400">The Gathering</a>
 			</div>
 		</div>
