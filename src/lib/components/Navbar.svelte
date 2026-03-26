@@ -84,7 +84,7 @@
 				aria-expanded={open}
 			>
 				{#if open}
-					✕
+                    X
 				{:else}
 					☰
 				{/if}
@@ -95,10 +95,10 @@
 
 	<!-- Mobile menu -->
 	{#if open}
-		<div class="sm:hidden bg-black/60 backdrop-blur-md border-t border-white/10 px-4 py-3 space-y-2">
+        <div class="sm:hidden border-t border-white px-4 py-3 space-y-2">
 
 			<a href="/" on:click={close} class="block rounded-md px-3 py-2 text-sm text-white hover:bg-white/10 transition-colors">
-				Hjem
+				Heim
 			</a>
 
 			<a href="/about" on:click={close} class="block rounded-md px-3 py-2 text-sm text-white hover:bg-white/10 transition-colors">
@@ -119,7 +119,7 @@
 					</button>
 
 					{#if dropdownOpen}
-						<div class="absolute right-0 mt-2 bg-black/90 backdrop-blur-md border border-white/10 rounded-md min-w-[160px]">
+						<div class="absolute right-0 mt-2 bg-black/90 border border-white/10 rounded-md min-w-[160px]">
 
 							<a href="/foo" on:click={closeDropdown}
 								class="block px-3 py-2 text-sm text-white hover:bg-white/10 transition-colors">
