@@ -19,7 +19,7 @@
 	<div class="relative flex items-center justify-center h-full">
 		<div class="text-center max-w-2xl">
             <a href="/" class="flex items-center justify-center py-8">
-                <img src={logo} alt="tghack logo"/>
+                <img src={logo} fetchpriority="high" alt="tghack logo"/>
             </a>
 			<Countdown />
 			<p class="mt-8 sm:text-xl text-white">
