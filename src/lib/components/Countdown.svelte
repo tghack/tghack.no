@@ -62,7 +62,7 @@
 {#if time === null}
 	<div class="text-center text-white">
 		<p class="font-bold text-xl">CTFen er live NÅ</p>
-		<p class="text-sm mt-2">🚩 {formatDate(TARGET_DATE)}</p>
+		<p class="text-sm mt-2">🚩 onsdag 1. april 2026 kl. 19:00</p>
 	</div>
 {:else}
 	<div class="flex flex-col items-center gap-3 text-white text-center">
@@ -78,7 +78,7 @@
 		</div>
 
 		<p class="text-lg">
-			🚩 {formatDate(TARGET_DATE)}
+			🚩 onsdag 1. april 2026 kl. 19:00
 		</p>
 	</div>
 {/if}
