@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount, onDestroy } from "svelte";
 
-	const TARGET_DATE = new Date("2027-04-01T19:00:00+02:00");
+	const TARGET_DATE = new Date("2027-03-24T19:00:00+02:00");
 
 	interface TimeLeft {
 		days: number;
