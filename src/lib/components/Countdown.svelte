@@ -36,7 +36,8 @@
 			month: "long",
 			year: "numeric",
 			hour: "2-digit",
-			minute: "2-digit"
+			minute: "2-digit",
+			timeZoneName: "short",
 		});
 	}
 
@@ -62,7 +63,7 @@
 {#if time === null}
 	<div class="text-center text-white">
 		<p class="font-bold text-xl">CTFen er live NÅ</p>
-		<p class="text-sm mt-2">🚩 onsdag 24. mars 2027 kl. 19:00</p>
+		<p class="text-sm mt-2">🚩 {formatDate(TARGET_DATE)}</p>
 	</div>
 {:else}
 	<div class="flex flex-col items-center gap-3 text-white text-center">
@@ -78,7 +79,7 @@
 		</div>
 
 		<p class="text-lg">
-			🚩 onsdag 1. april 2027 kl. 19:00
+			🚩 {formatDate(TARGET_DATE)}
 		</p>
 	</div>
 {/if}
