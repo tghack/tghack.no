@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount, onDestroy } from "svelte";
 
-	const TARGET_DATE = new Date("2026-04-01T19:00:00+02:00");
+	const TARGET_DATE = new Date("2027-04-01T19:00:00+02:00");
 
 	interface TimeLeft {
 		days: number;
@@ -78,7 +78,7 @@
 		</div>
 
 		<p class="text-lg">
-			🚩 onsdag 1. april 2026 kl. 19:00
+			🚩 onsdag 1. april 2027 kl. 19:00
 		</p>
 	</div>
 {/if}
