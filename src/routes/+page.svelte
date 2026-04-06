@@ -26,13 +26,13 @@
 			<div class="mt-8 text-lg sm:text-xl text-white px-8 py-8">
 				Norges lengstlevende CTF, som del av Norges største datafestival og LAN-party: <a href="https://www.tg.no/" class="underline hover:text-slate-400">The Gathering</a>
 			</div>
-				<a href="https://ctf.tghack.no" class="px-8 py-4 text-xl font-bold text-white 
+				<!--<a href="https://ctf.tghack.no" class="px-8 py-4 text-xl font-bold text-white 
 					bg-black border-2 border-green-400 rounded-xl
 					shadow-[0_0_20px_rgba(74,222,128,0.8)] 
 					hover:shadow-[0_0_30px_rgba(74,222,128,1)] 
 					transition duration-300">
 					Spill!
-				</a>
+				</a>-->
 		</div>
 	</div>
 
