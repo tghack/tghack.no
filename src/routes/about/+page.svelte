@@ -15,5 +15,15 @@
             arrangementet for å kunne vinne premier. I tillegg krever noen oppgaver (f.eks. dirking av låser og
             maskinvareoppgaver) at deltakerne er fysisk til stede, så du bør prøve å bli med oss i Vikingskipet! 
         </p>
+
+        <div class="relative flex items-center justify-center h-full">
+            <a href="/what" class="px-8 py-4 text-xl font-bold text-white
+                    bg-black border-2 border-green-400 rounded-xl
+                    shadow-[0_0_20px_rgba(74,222,128,0.8)]
+                    hover:shadow-[0_0_30px_rgba(74,222,128,1)]
+                    transition duration-300">
+                    Fortell meg mer!
+            </a>
+        </div>
     </div>
 </div>
